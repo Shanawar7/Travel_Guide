@@ -1,0 +1,125 @@
+[debug] [2024-12-11T13:25:00.852Z] ----------------------------------------------------------------------
+[debug] [2024-12-11T13:25:00.857Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:sdkconfig ios 1:155764665247:ios:66b7c13eccdcc7c244abaa --json
+[debug] [2024-12-11T13:25:00.861Z] CLI Version:   13.28.0
+[debug] [2024-12-11T13:25:00.861Z] Platform:      win32
+[debug] [2024-12-11T13:25:00.861Z] Node Version:  v23.3.0
+[debug] [2024-12-11T13:25:00.862Z] Time:          Wed Dec 11 2024 18:25:00 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-12-11T13:25:00.862Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-11T13:25:01.087Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-12-11T13:25:01.098Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-11T13:25:01.105Z] > authorizing via signed-in user (232915@students.au.edu.pk)
+[debug] [2024-12-11T13:25:01.129Z] Checked if tokens are valid: true, expires at: 1733927073449
+[debug] [2024-12-11T13:25:01.130Z] Checked if tokens are valid: true, expires at: 1733927073449
+[debug] [2024-12-11T13:25:01.136Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/iosApps/1:155764665247:ios:66b7c13eccdcc7c244abaa/config [none]
+[debug] [2024-12-11T13:25:01.299Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Ora.start (C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\ora\index.js:304:17)
+    at Command.actionFn (C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\apps-sdkconfig.js:68:95)
+    at C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:243:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-12-11T13:25:01.026Z] ----------------------------------------------------------------------
+[debug] [2024-12-11T13:25:01.032Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:sdkconfig ios 1:155764665247:ios:66b7c13eccdcc7c244abaa --json
+[debug] [2024-12-11T13:25:01.033Z] CLI Version:   13.28.0
+[debug] [2024-12-11T13:25:01.034Z] Platform:      win32
+[debug] [2024-12-11T13:25:01.034Z] Node Version:  v23.3.0
+[debug] [2024-12-11T13:25:01.035Z] Time:          Wed Dec 11 2024 18:25:01 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-12-11T13:25:01.035Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-11T13:25:01.288Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-12-11T13:25:01.304Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-11T13:25:01.305Z] > authorizing via signed-in user (232915@students.au.edu.pk)
+[debug] [2024-12-11T13:25:01.314Z] Checked if tokens are valid: true, expires at: 1733927073449
+[debug] [2024-12-11T13:25:01.315Z] Checked if tokens are valid: true, expires at: 1733927073449
+[debug] [2024-12-11T13:25:01.317Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/iosApps/1:155764665247:ios:66b7c13eccdcc7c244abaa/config [none]
+[debug] [2024-12-11T13:25:01.492Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Ora.start (C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\ora\index.js:304:17)
+    at Command.actionFn (C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\apps-sdkconfig.js:68:95)
+    at C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:243:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-12-11T13:25:01.095Z] ----------------------------------------------------------------------
+[debug] [2024-12-11T13:25:01.110Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:sdkconfig android 1:155764665247:android:04ff9453a3d5436044abaa --json
+[debug] [2024-12-11T13:25:01.116Z] CLI Version:   13.28.0
+[debug] [2024-12-11T13:25:01.117Z] Platform:      win32
+[debug] [2024-12-11T13:25:01.117Z] Node Version:  v23.3.0
+[debug] [2024-12-11T13:25:01.118Z] Time:          Wed Dec 11 2024 18:25:01 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-12-11T13:25:01.119Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-11T13:25:01.340Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-12-11T13:25:01.350Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-11T13:25:01.352Z] > authorizing via signed-in user (232915@students.au.edu.pk)
+[debug] [2024-12-11T13:25:01.372Z] Checked if tokens are valid: true, expires at: 1733927073449
+[debug] [2024-12-11T13:25:01.373Z] Checked if tokens are valid: true, expires at: 1733927073449
+[debug] [2024-12-11T13:25:01.375Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:155764665247:android:04ff9453a3d5436044abaa/config [none]
+[debug] [2024-12-11T13:25:01.524Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Ora.start (C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\ora\index.js:304:17)
+    at Command.actionFn (C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\apps-sdkconfig.js:68:95)
+    at C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:243:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-12-11T13:25:01.125Z] ----------------------------------------------------------------------
+[debug] [2024-12-11T13:25:01.132Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:sdkconfig web 1:155764665247:web:a05e6ecd71b4035f44abaa --json
+[debug] [2024-12-11T13:25:01.134Z] CLI Version:   13.28.0
+[debug] [2024-12-11T13:25:01.134Z] Platform:      win32
+[debug] [2024-12-11T13:25:01.135Z] Node Version:  v23.3.0
+[debug] [2024-12-11T13:25:01.136Z] Time:          Wed Dec 11 2024 18:25:01 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-12-11T13:25:01.136Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-11T13:25:01.355Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-12-11T13:25:01.370Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-11T13:25:01.371Z] > authorizing via signed-in user (232915@students.au.edu.pk)
+[debug] [2024-12-11T13:25:01.384Z] Checked if tokens are valid: true, expires at: 1733927073449
+[debug] [2024-12-11T13:25:01.384Z] Checked if tokens are valid: true, expires at: 1733927073449
+[debug] [2024-12-11T13:25:01.387Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:155764665247:web:a05e6ecd71b4035f44abaa/config [none]
+[debug] [2024-12-11T13:25:01.555Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Ora.start (C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\ora\index.js:304:17)
+    at Command.actionFn (C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\apps-sdkconfig.js:68:95)
+    at C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:243:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-12-11T13:25:01.167Z] ----------------------------------------------------------------------
+[debug] [2024-12-11T13:25:01.173Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:sdkconfig web 1:155764665247:web:9645c42d46dab1f444abaa --json
+[debug] [2024-12-11T13:25:01.174Z] CLI Version:   13.28.0
+[debug] [2024-12-11T13:25:01.174Z] Platform:      win32
+[debug] [2024-12-11T13:25:01.174Z] Node Version:  v23.3.0
+[debug] [2024-12-11T13:25:01.175Z] Time:          Wed Dec 11 2024 18:25:01 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-12-11T13:25:01.175Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-11T13:25:01.384Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-12-11T13:25:01.395Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-11T13:25:01.396Z] > authorizing via signed-in user (232915@students.au.edu.pk)
+[debug] [2024-12-11T13:25:01.408Z] Checked if tokens are valid: true, expires at: 1733927073449
+[debug] [2024-12-11T13:25:01.408Z] Checked if tokens are valid: true, expires at: 1733927073449
+[debug] [2024-12-11T13:25:01.412Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:155764665247:web:9645c42d46dab1f444abaa/config [none]
+[debug] [2024-12-11T13:25:01.580Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Ora.start (C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\ora\index.js:304:17)
+    at Command.actionFn (C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\apps-sdkconfig.js:68:95)
+    at C:\Users\aimen\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:243:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: An unexpected error has occurred.
